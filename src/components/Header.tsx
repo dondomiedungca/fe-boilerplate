@@ -1,7 +1,7 @@
 "use client";
 
+import { selectAuth } from "@/features/authentication";
 import { useAppSelector } from "@/store/hooks";
-import { selectAuth } from "@/store/reducers/auth.reducer";
 import Link from "next/link";
 
 const Header = () => {
